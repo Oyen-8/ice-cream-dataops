@@ -47,6 +47,4 @@ workflowDefinition:
       timeout: 3600
       onFailure: 'skipTask'
       dependsOn:
-        - externalId: contextualize_ts_assets_task 
-
-
+        - externalId: icapi_datapoints_extractor_task
